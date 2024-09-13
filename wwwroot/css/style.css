@@ -1,0 +1,28 @@
+﻿a {
+    text-decoration: none !important;
+}
+
+.MYbutton {
+    background-color: #0d6efd !important;
+    border-radius: 100px !important;
+    box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px !important;
+    color: white !important;
+    cursor: pointer !important;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif !important;
+    padding: 7px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    transition: all 250ms !important;
+    border: 0 !important;
+    font-size: 16px !important;
+    user-select: none !important;
+    -webkit-user-select: none !important;
+    touch-action: manipulation !important;
+    he
+}
+
+.MYbutton:hover {
+    box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px !important;
+    transform: scale(1.05) rotate(-1deg) !important;
+}

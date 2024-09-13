@@ -1,0 +1,17 @@
+﻿@page "{id:int}"
+@model Hotel.Pages.Home.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h2>@Model.Hotel.Name</h2>
+
+<p>Address: @Model.Hotel.Address</p>
+<p>Rooms: @Model.Hotel.Rooms</p>
+
+<a asp-page="/Home/Reservation" asp-route-id="@Model.Hotel.HotelId" class="btn btn-secondary">Reservation</a>
+<a href="/Index" class="btn btn-secondary">Back to List</a>
+
+
+

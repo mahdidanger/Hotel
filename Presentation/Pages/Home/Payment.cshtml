@@ -1,0 +1,25 @@
+﻿@page "{reservationId:int}"
+@model Hotel.Pages.Home.PaymentModel
+@{
+    ViewData["Title"] = "Payment";
+}
+
+<h2>Payment</h2>
+
+<p>Reservation ID: @Model.Reservation.ReservationId</p>
+<p>Hotel Name: @Model.Hotels.Name</p>
+<p>Room ID: @Model.Reservation.RoomId</p>
+<p>Person Count: @Model.Reservation.PersonCount</p>
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="paymentMethod">Choose Payment Method:</label>
+        <select class="form-control" id="paymentMethod" name="paymentMethod">
+            <option value="CreditCard">Credit Card</option>
+            <option value="PayPal">PayPal</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-success">Proceed to Payment</button>
+</form>
+
